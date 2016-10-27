@@ -1,1 +1,2 @@
-# NLP-course-project
+## NLP Course Project
+Exploring Hillary Clinton Emails
