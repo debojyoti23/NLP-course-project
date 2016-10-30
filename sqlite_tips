@@ -1,0 +1,28 @@
+Useful Links:
+http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
+
+debojyoti@debojyoti-ws:~/nlp/project/hillary-clinton-emails$ sqlite3
+SQLite version 3.13.0 2016-05-18 10:57:30
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> attach "database.sqlite" as db1;
+sqlite> .databases
+seq  name             file                                                      
+---  ---------------  ----------------------------------------------------------
+0    main                                                                       
+2    db1              /home/debojyoti/nlp/project/hillary-clinton-emails/databas
+sqlite> .tables
+db1.Aliases         db1.EmailReceivers  db1.Emails          db1.Persons
+
+sqlite> .help
+sqlite> pragma database_list;
+0|main|
+1|temp|
+2|db1|/home/debojyoti/nlp/project/hillary-clinton-emails/database.sqlite
+
+sqlite> pragma db1.index_list('Emails');
+0|emails_docnumber_ix|0|c|0
+1|emails_senderpersonid_ix|0|c|0
+
+sqlite> pragma db1.table_info('Emails');

@@ -1,0 +1,19 @@
+Important links:
+
+Sentiment analysis: http://nlp.stanford.edu/sentiment/code.html
+
+Topic modelling: http://radimrehurek.com/topic_modeling_tutorial/2%20-%20Topic%20Modeling.html
+
+scikit-learn feature extraction: http://scikit-learn.org/stable/modules/feature_extraction.html
+
+Kaggle intro to BoW page: https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words
+
+3 methods of sentiment analysis: https://www.kaggle.com/apasupat/d/kaggle/hillary-clinton-emails/sentiment-analysis-3-different-methods
+
+Kaggle Hillary C link: https://www.kaggle.com/gpayen/d/kaggle/hillary-clinton-emails/interaction-between-contacts
+
+Wordcloud + stopwords: https://www.kaggle.com/the1owl/d/kaggle/hillary-clinton-emails/president-2016-nltk/code
+
+NRC emotion sentiment: https://www.kaggle.com/operdeck/d/kaggle/hillary-clinton-emails/hillary-s-sentiment-about-countries/code
+
+countries most mentioned by HC: https://www.kaggle.com/ampaho/d/kaggle/hillary-clinton-emails/countries-the-most-mentioned-by-hillary/code
