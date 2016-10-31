@@ -17,3 +17,18 @@ Wordcloud + stopwords: https://www.kaggle.com/the1owl/d/kaggle/hillary-clinton-e
 NRC emotion sentiment: https://www.kaggle.com/operdeck/d/kaggle/hillary-clinton-emails/hillary-s-sentiment-about-countries/code
 
 countries most mentioned by HC: https://www.kaggle.com/ampaho/d/kaggle/hillary-clinton-emails/countries-the-most-mentioned-by-hillary/code
+
+Installation in conda:
+----------------------
+anaconda search -t conda rpy2
+conda install -c r rpy2
+conda install -c NSIDC  pycountry
+
+rpy2 intro
+-----------
+http://rpy2.readthedocs.io/en/version_2.8.x/introduction.html
+
+Sentiment Analysis NLTK
+------------------------
+http://www.nltk.org/howto/sentiment.html
+http://text-processing.com/demo/sentiment/
