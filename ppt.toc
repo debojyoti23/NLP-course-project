@@ -1,6 +1,5 @@
-\beamer@endinputifotherversion {3.24pt}
+\beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{What we proposed?}{3}{0}{1}
 \beamer@sectionintoc {2}{What have we achieved?}{6}{0}{2}
-\beamer@sectionintoc {3}{How we achieved them?}{8}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{9}{0}{4}
-\beamer@sectionintoc {5}{References}{10}{0}{5}
+\beamer@sectionintoc {3}{How we achieved them?}{7}{0}{3}
+\beamer@sectionintoc {4}{References}{8}{0}{4}

@@ -66,7 +66,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Short title]{Analysis of mails from Hillary Clinton’s Mail dataset} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Short title]{Analysis of Hillary Clinton Emails} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Debojyoti Dey (15511264), Nimisha Agarwal (15511267)} % Your name
 %\author{Debojyoti Dey}
@@ -104,20 +104,8 @@
 	\frametitle{Problem Statement}
 	\begin{itemize}
 		\item Extracting important topics from the e-mails.
-		\item Getting an idea of US Foreign policy and relation with different nations.
+		\item Relation of US with different nations in Hillary's perspective..
 		\item Persons linked to Clinton and Hillary's sentiment about them.
-	\end{itemize}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Sentiment Analysis}
-	\begin{itemize}
-		\item Process of identifying and categorizing opinion.
-		\item For determining the person's attitude towards a particular thing.
-		\item Various libraries are available in python for this purpose.
-		\item We have used VADER library in NLTK for this purpose.
 	\end{itemize}
 \end{frame}
 
@@ -126,9 +114,31 @@
 \begin{frame}
 	\frametitle{Topic Modelling}
 	\begin{itemize}
-		\item Technique for discovering the abstract "topics" in a set of documents.
-		\item If a document is on a certain topic, then it is expected to contain particular words.
-		\item We have used LDA library of gensim for this purpose.
+		\item Technique for discovering the abstract ``topics'' in a set of documents.
+		\item Topic of a document is inferred from the words in it.
+		\item Latent Semantic Analysis(LSA) - uses SVD on term-doc matrix.
+		\item Latent Dirichlet allocation(LDA) - Bayesian Inference
+		\begin{itemize}
+			\item A topic has probabilities of generating certain words.
+			\item A document is a mixture of various topics.
+		\end{itemize}
+		\item We have used LDA model in gensim for this purpose.
+	\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Sentiment Analysis}
+	\begin{itemize}	
+		\item Process of identifying and categorizing texts on sentiments.
+		\item For determining the person's attitude towards a particular thing.
+		\item VADER - Lexicon and rule based approach.
+		\begin{itemize}
+			\item Each word has some +ve or -ve score.
+			\item Rules to score the combination of lexicons.
+		\end{itemize}
+		\item We have used NLTK-VADER library for this purpose.
 	\end{itemize}
 \end{frame}
 
@@ -141,19 +151,14 @@
 %------------------------------------------------
 
 \begin{frame}
-	\frametitle{Acievements}
+	\frametitle{Achievements}
 	\begin{itemize}
-		\item Extracting important topics from the e-mails.
-		\item Getting an idea of US Foreign policy and relation with different nations.
-	\end{itemize}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Couldn't Achieve}
-	\begin{itemize}
-		\item Persons linked to Clinton and Hillary's sentiment about them.
+		\item Fulfilled objectives
+		\begin{enumerate}
+			\item Extracting important topics from the e-mails.
+			\item Relation of US with different nations in Hillary's perspective.
+		\end{enumerate}
+		\item Difficult to assess sentiment of Hillary about some person from emails between them.
 	\end{itemize}
 \end{frame}
 
@@ -164,17 +169,10 @@
 %------------------------------------------------
 
 \begin{frame}
-	\frametitle{Demo}
-	
-\end{frame}
-
-%------------------------------------------------
-\section{Conclusion}
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Conclusion}
-	
+	\frametitle{}
+	\begin{center}
+		\textbf{Demo}
+	\end{center}
 \end{frame}
 
 %------------------------------------------------
@@ -186,6 +184,16 @@
 	\footnotesize{
 		\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
 			\bibitem[kaggle]{p1} https://www.kaggle.com/kaggle/hillary-clinton-emails
+			
+			\bibitem[hutto2014vader]{p2} Hutto, Clayton J and Gilbert, Eric (2014)
+			\newblock Vader: A parsimonious rule-based model for sentiment analysis of social media text
+			\newblock \emph{Eighth International AAAI Conference on Weblogs and Social Media}.
+			
+			\bibitem[wiki:xxx]{p3} Wikipedia
+			\newblock Latent Dirichlet allocation --- Wikipedia The Free Encyclopedia
+			
+			\bibitem[wiki:xxx]{p4} Wikipedia
+			\newblock Latent semantic analysis --- Wikipedia The Free Encyclopedia
 		\end{thebibliography}
 	}	
 \end{frame}
