@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.1)  9 NOV 2016 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.1)  14 NOV 2016 13:28
 entering extended mode
 **./ppt.tex
 (ppt.tex
@@ -983,10 +983,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 16858 strings out of 493334
- 326737 string characters out of 3136660
+ 16860 strings out of 493334
+ 326753 string characters out of 3136660
  391578 words of memory out of 3000000
- 19980 multiletter control sequences out of 15000+200000
+ 19982 multiletter control sequences out of 15000+200000
  7020 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,17n,60p,386b,646s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -997,7 +997,7 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb>
-Output written on ppt.pdf (9 pages, 141371 bytes).
+Output written on ppt.pdf (9 pages, 141191 bytes).
 PDF statistics:
  327 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
